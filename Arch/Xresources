@@ -127,10 +127,14 @@ URxvt.color15 : #FFFFFF
 
 ! URxvt*font:                           xft:Source Code Pro:Regular:pixelsize=28
 ! URxvt*font:                           xft:Source Code Pro:Bold:pixelsize=28
-URxvt*font:                           xft:DejaVu Sans Mono:Book:pixelsize=28
+! URxvt*font:                           xft:DejaVu Sans Mono:Book:pixelsize=28
+!solved for vim status line displayed as box
+!install powerline font repo and cp ~/.local/share/fonts /usr/share/fonts/TTF
+URxvt*font:                           xft:DejaVu Sans Mono for Powerline:Book:pixelsize=28
 ! URxvt*font:                           xft:Inconsolata:pixelsize=28
 ! URxvt*font:                           xft:Terminus:pixelsize=28
-URxvt*letterSpace:                    -1
+! URxvt*letterSpace:                    -1
+URxvt*letterSpace:                    1
 
 URxvt*inputMethod:                    fcitx
 
